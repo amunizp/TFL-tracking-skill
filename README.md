@@ -1,7 +1,35 @@
-# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bus.svg' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/> MBTA Bus Tracking
-Announce arrivals of MBTA buses.
+# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/bus.svg' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/> Public transport Tracking
+Announce arrivals of Public transport.
 
 ## About
+
+Based off MBTA project hopefully make it more general so that you can add other public transports. 
+
+Because mycroft 1 and mycroft 2 are meant to be be in one location the idea is to add a discrete list of bus stops in the confibguration page that can then be called to find out if you have to run for the bus or underground. 
+
+The idea is that this should be shorter process than taking out your phone. 
+
+
+<details><summary>View Sample situation</summary>
+<dl>
+Puts on coat with one hand removes toast from mouth on the other hand 
+
+<dt>Hey Mycroft Bus</dt>
+<dd>Are you going outbound toward Richmond or toward Kingston?</dd>
+<dt>Kingston</dt>
+<dd>The next bus to Kingston is: <dd>
+<dd>Arriving in 11 minutes<dd>
+<dd>Arriving in 21 minutes<dd>
+<dd>Arriving in 34 minutes<dd>
+</dl>
+</details>
+
+
+
+Please see orginal project: https://github.com/richhowley/mbta-bus-tracking-skill
+
+
+
 Mycroft will announce estimated arrival times of MBTA buses at your stop so you never leave the house before you have to.  All data and arrival predictions used by this skill are provided by the MBTA.  
 
 See below for full documentation, including how to track buses traveling toward your stop, but to get started just say "Hey Mycroft, T Bus Arrivals".  You will be prompted for the bus route, direction and stop name.  Mycroft will respond with all estimated arrival times at your stop.
